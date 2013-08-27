@@ -1,4 +1,3 @@
-theme-LessSkeleton
-==================
+Less Skeleton theme
+===================
 
-LESS Skeleton theme for ImpressPages 3.6 and up
