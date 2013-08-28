@@ -1,0 +1,22 @@
+<?php
+/**
+ * This comment block is used just to make IDE suggestions to work
+ * @var $this \Ip\View
+ */
+?>
+
+</div><!-- /.container -->
+
+<footer>
+    <?php echo $this->generateManagedString('themeName', 'p', 'Theme "LESS Skeleton"'); ?>
+    <?php echo $this->generateManagedText('slogan', 'div', 'Drag &amp; drop with <a href="http://www.impresspages.org">ImpressPages CMS</a>', 'pull-right'); ?>
+</footer>
+<?php
+
+$site->addJavascript(BASE_URL.LIBRARY_DIR.'js/jquery/jquery.js');
+$site->addJavascript(BASE_URL.THEME_DIR.THEME.'/js/site.js');
+echo $site->generateJavascript();
+
+?>
+</body>
+</html>
