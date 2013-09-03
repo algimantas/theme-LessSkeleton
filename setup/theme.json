@@ -33,13 +33,21 @@
             "label": "Background Color",
             "name": "backgroundColor",
             "type": "color",
-            "default": "#e5e5e5"
+            "default": "#fff"
         },
         {
-            "name": "boxWidth",
-            "type": "hidden",
-            "default": "220",
-            "units": "px"
+            "label": "Homepage block count",
+            "name": "homeBlockCount",
+            "type": "select",
+            "values": [2, 3, 4],
+            "default": 3
+        },
+        {
+            "label": "Layout",
+            "name": "layout",
+            "type": "select",
+            "values": ["singleColumn", "doubleColumn"],
+            "default": "doubleColumn"
         }
     ]
 }

@@ -1,4 +1,3 @@
-<?php if (!defined('CMS')) exit; ?>
 <?php
 /**
  * This comment block is used just to make IDE suggestions to work
@@ -7,6 +6,19 @@
 ?>
 <?php echo $this->subview('_header.php'); ?>
 
-<?php echo $this->generateBlock('main'); ?>
+<?php $layout = $this->getThemeOption('layout', 'doubleColumn'); ?>
+
+<div role="main" class="<?php echo $layout ?>">
+
+    <div class="main">
+        <?php echo $this->generateBlock('main')->exampleContent('MAIN'); ?>
+    </div>
+
+    <?php if ($layout == 'doubleColumn') { ?>
+        <aside>
+            <?php echo $this->generateBlock('main2')->exampleContent('main2'); ?>
+        </aside>
+    <?php } ?>
+</div>
 
 <?php echo $this->subview('_footer.php'); ?>
