@@ -1,0 +1,58 @@
+{
+    "title": "LESS Skeleton",
+    "version": "1.00",
+    "doctype": "HTML5", /* HTML5, XHTML1_STRICT, XHTML1_TRANSITIONAL, XHTML1_FRAMESET, HTML4_STRICT, HTML4_TRANSITIONAL, HTML4_FRAMESET  */
+    // "thumbnail": "thumbnail.png",
+    "author": "ImpressPages",
+    "widget": { /* Image cropping settings for widgets. Require theme reinstall to take affect. */
+        "image": {
+            "width": 540,
+            "height": 342,
+            "bigWidth": 800, /* Lightbox */
+            "bigHeight": 600 /* Lightbox */
+        },
+        "imageGallery": {
+            "width": 160,
+            "height": 100,
+            "bigWidth": 800, /* Lightbox */
+            "bigHeight": 600 /* Lightbox */
+        },
+        "logoGallery": {
+            "width": 160,
+            "height": 160
+        },
+        "textImage": {
+            "width": 220,
+            "height": 600,
+            "bigWidth": 800, /* Lightbox */
+            "bigHeight": 600 /* Lightbox */
+        }
+    },
+    "options": [
+        {
+            "label": "Background Color",
+            "name": "wrapperColor",
+            "type": "color",
+            "default": "#ddd"
+        },
+        {
+            "label": "Homepage block count",
+            "name": "homeBlockCount",
+            "type": "select",
+            "values": [2, 3, 4],
+            "default": 3
+        },
+        {
+            "label": "Layout",
+            "name": "layout",
+            "type": "select",
+            "values": ["singleColumn", "doubleColumn"],
+            "default": "doubleColumn"
+        },
+        {
+            "label": "Add minimal styling",
+            "name": "addMinimalStyling",
+            "type": "check"
+        }
+    ]
+}
