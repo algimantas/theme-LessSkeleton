@@ -9,7 +9,7 @@
 
 <div class="singleColumn">
     <div role="main" class="main">
-        <?php echo $this->subview('sampleContent/exampleHtml.php')->render(); ?>
+        <?php echo $this->subview('exampleContent/exampleIpContent.php')->render(); ?>
     </div>
 </div>
 

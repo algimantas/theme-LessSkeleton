@@ -15,7 +15,7 @@
 
     <h3>Home content block 1</h3>
 
-    <?php echo $site->generateBlock('home1', true)->exampleContent($this->subview('sampleContent/home1.php')); ?>
+    <?php echo $site->generateBlock('home1', true)->exampleContent($this->subview('exampleContent/home1.php')); ?>
 
     <h3>Home content block 2</h3>
     <?php echo $site->generateBlock('home2', true)->exampleContent('<pre>Hello</pre>'); ?>
@@ -25,7 +25,7 @@
 
     <?php if ($homeBlockCount >= 3) { ?>
         <h3>Home content block 3</h3>
-        <?php echo $site->generateBlock('home3', true)->exampleContentFrom('sampleContent/home3.php'); ?>
+        <?php echo $site->generateBlock('home3', true)->exampleContentFrom('exampleContent/home3.php'); ?>
     <?php } ?>
 
     <?php if ($homeBlockCount >= 4) { ?>
