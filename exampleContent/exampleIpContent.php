@@ -5,3 +5,18 @@
  */
 
 ?>
+
+<!--
+    Forms
+-->
+<h2>Forms</h2>
+
+<!--
+    Menus
+-->
+<h2>Menus</h2>
+
+<!--
+    Pagination
+-->
+<h2>Pagination</h2>
