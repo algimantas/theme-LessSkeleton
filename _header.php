@@ -17,11 +17,12 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <?php
-    $site->addCss(BASE_URL.THEME_DIR.THEME.'/css/normalize.css');
-    $site->addCss(BASE_URL.THEME_DIR.THEME.'/css/main.css');
+    $site->addCss(BASE_URL.THEME_DIR.THEME.'/css/normalize.css');   // HTML5 Boilerplate CSS - you can remove this
+    $site->addCss(BASE_URL.THEME_DIR.THEME.'/css/main.css');        // HTML5 Boilerplate CSS - you can remove this
+    $site->addCss(BASE_URL.THEME_DIR.THEME.'/ip_content.css');      // ImpressPages widget content css
     $site->addCss(BASE_URL.THEME_DIR.THEME.'/theme.css');
-    if ($this->getThemeOption('addMinimalStyling')) {
-        $site->addCss(BASE_URL.THEME_DIR.THEME.'/minimal.css');
+    if ($this->getThemeOption('addMinimalStyling')) {   // Example how to use check option
+        $site->addCss(BASE_URL.THEME_DIR.THEME.'/minimal.css');     // Please remove this file
     }
     echo $site->generateHead();
     ?>
