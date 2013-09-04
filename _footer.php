@@ -1,3 +1,4 @@
+<!-- <div class="container> -->
 <?php
 /**
  * This comment block is used just to make IDE suggestions to work
@@ -5,15 +6,21 @@
  */
 ?>
 
-<footer role="contentinfo">
-    <div role="search">
-        <h2>Search form</h2>
-        <?php echo $this->generateBlock('ipSearch'); ?>
-    </div>
+    <?php if ($this->getThemeOption('showSearch')) { ?>
+        <div role="search">
+            <h2>Search form</h2>
+            <?php echo $this->generateBlock('ipSearch'); ?>
+        </div>
+    <?php } ?>
 
-    <?php echo $this->generateManagedString('themeName', 'p', 'Theme "LESS Skeleton"'); ?>
-    <?php echo $this->generateManagedText('slogan', 'div', 'Drag &amp; drop with <a href="http://www.impresspages.org">ImpressPages CMS</a>', ''); ?>
-</footer>
+    <?php if ($this->getThemeOption('showFooter')) { ?>
+        <footer role="contentinfo">
+
+            <?php echo $this->generateManagedString('themeName', 'p', 'Theme "LESS Skeleton"'); ?>
+            <?php echo $this->generateManagedText('slogan', 'div', 'Drag &amp; drop with <a href="http://www.impresspages.org">ImpressPages CMS</a>', ''); ?>
+        </footer>
+    <?php } ?>
+
 </div><!-- /.container -->
 <?php
 

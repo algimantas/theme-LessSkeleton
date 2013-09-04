@@ -1,5 +1,5 @@
 var ipDesignOptions = {
-    'backgroundColor': function (value) {
+    'wrapperColor': function (value) {
         $('body').css('background-color', value);
     }
 };
