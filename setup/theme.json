@@ -50,9 +50,16 @@
             "default": "doubleColumn"
         },
         {
-            "label": "Add minimal styling",
-            "name": "addMinimalStyling",
-            "type": "check"
+            "label": "Show footer",
+            "name": "showFooter",
+            "type": "check",
+            "default": true
+        },
+        {
+            "label": "Show search",
+            "name": "showSearch",
+            "type": "check",
+            "default": true
         }
     ]
 }
