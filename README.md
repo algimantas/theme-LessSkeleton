@@ -28,7 +28,7 @@ Finishing touches
 1. Look at `less/ipContent/config.less`, copy the variables you want to change to `less/config.less` and change them there
 2. Add theme thumbnail `setup/thumbnail.png` and uncomment it in `setup/theme.json`
 
-Contibute!
+Contribute!
 ----------
 
 1. Report issues and add feature requests at [github](https://github.com/impresspages/theme-LessSkeleton/issues)
