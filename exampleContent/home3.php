@@ -1,1 +1,1 @@
-<img src="<?php echo BASE_URL . THEME_DIR . THEME ?>/sampleContent/img/image1.png" />
+<img src="<?php echo BASE_URL . THEME_DIR . THEME ?>/exampleContent/img/image1.png" />
