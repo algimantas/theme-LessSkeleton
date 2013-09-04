@@ -6,7 +6,15 @@
 ?>
 <?php echo $this->subview('_header.php'); ?>
 
-<?php $layout = $this->getThemeOption('layout', 'doubleColumn'); ?>
+<?php
+
+if ('search' == $site->getCurrentZoneName()) {
+    $layout = 'singleColumn';
+} else {
+    $layout = $this->getThemeOption('layout', 'doubleColumn');
+}
+
+?>
 
 <div role="main" class="<?php echo $layout ?>">
 

@@ -1,55 +1,23 @@
-<?php if (!defined('CMS')) exit; ?>
-<?php
-/**
- * This comment block is used just to make IDE suggestions to work
- * @var $this \Ip\View
- */
-?>
-<?php echo $this->subview('_head.php'); ?>
-
-<?php echo $this->subview('sampleContent/html/sampleContent1.php'); ?>
-
-<hr />
-
 <!-- Typography
 ================================================== -->
-<div class="bs-docs-section">
-    <div class="row">
-        <div class="col-lg-12">
-            <div class="page-header">
-                <h1 id="type">Typography</h1>
-            </div>
-        </div>
-    </div>
+<h2>Typography</h2>
 
     <!-- Headings -->
 
-    <div class="row">
-        <div class="col-lg-4">
-            <div class="bs-example bs-example-type">
-                <h1>Heading 1</h1>
-                <h2>Heading 2</h2>
-                <h3>Heading 3</h3>
-                <h4>Heading 4</h4>
-                <h5>Heading 5</h5>
-                <h6>Heading 6</h6>
-            </div>
-            <div class="bs-example">
-                <p class="lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-            </div>
-        </div>
-        <div class="col-lg-4">
-            <div class="bs-example">
-                <h2>Example body text</h2>
-                <p>Nullam quis risus eget <a href="#">urna mollis ornare</a> vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
-                <p><small>This line of text is meant to be treated as fine print.</small></p>
-                <p>The following snippet of text is <strong>rendered as bold text</strong>.</p>
-                <p>The following snippet of text is <em>rendered as italicized text</em>.</p>
-                <p>An abbreviation of the word attribute is <abbr title="attribute">attr</abbr>.</p>
-            </div>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
 
-        </div>
-        <div class="col-lg-4">
+
+<h2>Example body text</h2>
+<p>Nullam quis risus eget <a href="#">urna mollis ornare</a> vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
+<p><small>This line of text is meant to be treated as fine print.</small></p>
+<p>The following snippet of text is <strong>rendered as bold text</strong>.</p>
+<p>The following snippet of text is <em>rendered as italicized text</em>.</p>
+<p>An abbreviation of the word attribute is <abbr title="attribute">attr</abbr>.</p>
 
             <h2>Emphasis classes</h2>
             <div class="bs-example">
@@ -60,9 +28,6 @@
                 <p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
                 <p class="text-info">Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
             </div>
-
-        </div>
-    </div>
 
     <!-- Blockquotes -->
 
@@ -796,7 +761,7 @@
     <div class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
-                <a href="../" class="navbar-brand">Bootswatch</a>
+                <a href="../../" class="navbar-brand">Bootswatch</a>
                 <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>

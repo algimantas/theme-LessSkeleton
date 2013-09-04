@@ -20,6 +20,9 @@
     $site->addCss(BASE_URL.THEME_DIR.THEME.'/css/normalize.css');
     $site->addCss(BASE_URL.THEME_DIR.THEME.'/css/main.css');
     $site->addCss(BASE_URL.THEME_DIR.THEME.'/theme.css');
+    if ($this->getThemeOption('addMinimalStyling')) {
+        $site->addCss(BASE_URL.THEME_DIR.THEME.'/minimal.css');
+    }
     echo $site->generateHead();
     ?>
 
@@ -29,25 +32,28 @@
     <script src="<?php echo BASE_URL . THEME_DIR . THEME ?>/js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 <body <?php if ($site->managementState()) { echo ' class="manage"'; } ?> >
+    <div class="container">
+        <header>
+            <h1><?php echo $this->esc($site->getTitle()) ?></h1>
+            <h2>Menu</h2>
+            <nav role="navigation">
+                <div class="topMenu">
+                    <?php
+                        //first argument is unique name of this menu within your theme. Choose anything you like. Next argument is zone name. They don't have to be equal.
+                        echo $this->generateMenu('top', 'menu1');
+                    ?>
+                </div>
+            </nav>
 
-    <header>
-        <h2>Menu</h2>
-        <nav role="navigation">
-        <?php
-            //first argument is unique name of this menu within your theme. Choose anything you like. Next argument is zone name. They don't have to be equal.
-            echo $this->generateMenu('top', 'menu1');
-        ?>
-        </nav>
+            <?php if (0) { ?>
+                <div class="languages">
+                    <?php echo $this->generateBlock('ipLanguages'); ?>
+                </div>
+            <?php } // if (0) ?>
 
-        <?php if (0) { ?>
-            <div class="languages">
-                <?php echo $this->generateBlock('ipLanguages'); ?>
-            </div>
-        <?php } // if (0) ?>
-
-        <?php if (0) { ?>
-            <div role="banner">
-                <?php echo $this->generateManagedImage('banner', THEME_DIR.THEME.'/img/example/header.jpg', array('width' => '940'), 'banner'); ?>
-            </div>
-        <?php } ?>
-    </header>
+            <?php if (0) { ?>
+                <div role="banner">
+                    <?php echo $this->generateManagedImage('banner', THEME_DIR.THEME.'/img/example/header.jpg', array('width' => '940'), 'banner'); ?>
+                </div>
+            <?php } ?>
+        </header>

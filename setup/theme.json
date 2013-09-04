@@ -31,9 +31,9 @@
     "options": [
         {
             "label": "Background Color",
-            "name": "backgroundColor",
+            "name": "wrapperColor",
             "type": "color",
-            "default": "#fff"
+            "default": "#ddd"
         },
         {
             "label": "Homepage block count",
@@ -48,6 +48,11 @@
             "type": "select",
             "values": ["singleColumn", "doubleColumn"],
             "default": "doubleColumn"
+        },
+        {
+            "label": "Add minimal styling",
+            "name": "addMinimalStyling",
+            "type": "check"
         }
     ]
 }

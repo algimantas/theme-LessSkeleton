@@ -7,7 +7,8 @@
 
 <?php echo $this->subview('_header.php'); ?>
 
-<div role="main">
+<div class="singleColumn">
+<div role="main" class="main">
     <h2>Home page content</h2>
 
     <?php $homeBlockCount = $this->getThemeOption('homeBlockCount', 2); ?>
@@ -32,6 +33,7 @@
         <?php echo $site->generateBlock('home4', true); ?>
     <?php } ?>
 
+</div>
 </div>
 
 
