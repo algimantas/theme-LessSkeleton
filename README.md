@@ -1,7 +1,7 @@
 Less Skeleton theme
 ===================
 
-[ImpressPages](http://www.impresspages.org) LESS theme based on [HTML5 Boilerplate][] and meant to be used for creating your own themes.
+[ImpressPages](http://www.impresspages.org) LESS theme based on [HTML5 Boilerplate](http://html5boilerplate.com/) and meant to be used for creating your own themes.
 
 What will you get
 -----------------
@@ -33,7 +33,3 @@ Contribute!
 
 1. Report issues and add feature requests at [github](https://github.com/impresspages/theme-LessSkeleton/issues)
 2. Fork github repository, do cool stuff and create pull request
-
-
-
-    [HTML5 Boilerplate]: http://html5boilerplate.com/
