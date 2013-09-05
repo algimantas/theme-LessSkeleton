@@ -15,10 +15,10 @@
 
     <h3>Home content block 1</h3>
 
-    <?php echo $site->generateBlock('home1', true)->exampleContent($this->subview('exampleContent/home1.php')); ?>
+    <?php echo $site->generateBlock('home1', true)->exampleContent('<h2>Example content to be shown before user adds any widget to this block</h2>'); ?>
 
     <h3>Home content block 2</h3>
-    <?php echo $site->generateBlock('home2', true)->exampleContent('<pre>Hello</pre>'); ?>
+    <?php echo $site->generateBlock('home2', true); ?>
 
     <h3>Main content</h3>
     <?php echo $this->generateBlock('main')->exampleContent('Here goes main content'); ?>
