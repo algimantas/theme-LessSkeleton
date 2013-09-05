@@ -1,14 +1,14 @@
 Less Skeleton theme
 ===================
 
-[ImpressPages](http://www.impresspages.org) theme based on [HTML5 Boilerplate][] and meant to be used for creating your own themes.
+[ImpressPages](http://www.impresspages.org) LESS theme based on [HTML5 Boilerplate][] and meant to be used for creating your own themes.
 
 What will you get
----------------------
-- `setup/theme.json` will show how to create theme options (color, select, checkbox)
+-----------------
+- `setup/theme.json` will show how to create [theme options](http://www.impresspages.org/docs2/theme-configuration-options/)
 - `setup/options.js` will show how to update css without the need to save it
 - `theme.less` will show you how to create one css file from many less files
-- `less/site.less` will show how to use color user sets in theme options
+- `less/site.less` will show how to use color user sets in theme options. More about [LESS](http://www.impresspages.org/docs2/less-css/)
 - `_header.php` will show how to create html headers
 - `_footer.php` will show how to include js files and display/show content according to theme options
 - `home.php` will show how to use static blocks and example content
@@ -35,12 +35,5 @@ Contribute!
 2. Fork github repository, do cool stuff and create pull request
 
 
-Additional documentation
-------------------------
 
-- [Setup folder](http://www.impresspages.org/docs2/theme-setup-folder/)
-- [Configuration options](http://www.impresspages.org/docs2/theme-configuration-options/)
-- [LESS](http://www.impresspages.org/docs2/less-css/)
-
-# Links
-[HTML5 Boilerplate]: http://html5boilerplate.com/
+    [HTML5 Boilerplate]: http://html5boilerplate.com/
