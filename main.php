@@ -19,12 +19,12 @@ if ('search' == $site->getCurrentZoneName()) {
 <div role="main" class="<?php echo $layout ?>">
 
     <div class="main">
-        <?php echo $this->generateBlock('main')->exampleContent('MAIN'); ?>
+        <?php echo $this->generateBlock('main')->exampleContent('There goes main content.'); ?>
     </div>
 
     <?php if ($layout == 'doubleColumn') { ?>
         <aside>
-            <?php echo $this->generateBlock('side1')->exampleContent('Side1'); ?>
+            <?php echo $this->generateBlock('side1')->exampleContent('There goes sidebar.'); ?>
         </aside>
     <?php } ?>
 </div>
