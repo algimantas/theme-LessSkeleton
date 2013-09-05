@@ -24,7 +24,7 @@ if ('search' == $site->getCurrentZoneName()) {
 
     <?php if ($layout == 'doubleColumn') { ?>
         <aside>
-            <?php echo $this->generateBlock('main2')->exampleContent('main2'); ?>
+            <?php echo $this->generateBlock('side1')->exampleContent('Side1'); ?>
         </aside>
     <?php } ?>
 </div>
