@@ -1,2 +1,11 @@
-// UI option values ===========================================================
-@wrapperColor: #fff;
+/*
+In our themes we usually want to override some of ipContent/config.less variables.
+To do so, we copy particular variables from ipContent/config.less and change values.
+*/
+@linkColor: #0066CC;
+
+/*
+We also want to define theme specific variables. For example, we will define @wrapperColor - theme wrapper background
+color. Because we want to make it configurable, we define wrappeColor option in setup/theme.json.
+*/
+@wrapperColor: #fff; // This is default value used until user changes it Design options in admin panel
