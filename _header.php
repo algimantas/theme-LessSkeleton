@@ -43,7 +43,7 @@
 
             <?php if (0) { ?>
                 <div class="languages">
-                    <?php echo $this->generateBlock('ipLanguages'); ?>
+                    <?php echo $this->generateSlot('ipLanguages'); ?>
                 </div>
             <?php } // if (0) ?>
 

@@ -1,6 +1,8 @@
 <?php
 /**
- * This comment block is used just to make IDE suggestions to work
+ * This layout is just to test how theme renders different content.
+ * REMOVE this layout after you finish your theme.
+ *
  * @var $this \Ip\View
  */
 ?>

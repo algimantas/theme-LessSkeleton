@@ -9,7 +9,7 @@
     <?php if ($this->getThemeOption('showSearch')) { ?>
         <div role="search">
             <h2>Search form</h2>
-            <?php echo $this->generateBlock('ipSearch'); ?>
+            <?php echo $this->generateSlot('ipSearch'); ?>
         </div>
     <?php } ?>
 
