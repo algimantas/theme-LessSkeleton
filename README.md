@@ -1,4 +1,4 @@
-Less Skeleton theme
+Less Skeleton theme for ImpressPages 3.x
 ===================
 
 [ImpressPages](http://www.impresspages.org) LESS theme based on [HTML5 Boilerplate](http://html5boilerplate.com/) and meant to be used for creating your own themes.
